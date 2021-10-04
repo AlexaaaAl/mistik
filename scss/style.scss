@@ -24,3 +24,38 @@ header{
 h2{
     text-align: center;
 }
+.superpowers{
+    h2{
+    color: white;
+    text-transform: uppercase    ;
+    }
+
+}
+.power_text{
+    color:#FCE558;
+}
+.three_night{
+    text-align: center;
+    color:white;
+}
+.power_text1{
+    text-decoration: bold;
+    color:white;
+}
+.card_night{
+    display:flex;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+.cads_n{
+    background-color: white;
+    border-radius: 30px;
+    width: 250px;
+    justify-content: center;
+    }
+    img{
+    }
+}
