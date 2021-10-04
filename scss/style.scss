@@ -273,3 +273,159 @@ letter-spacing: 0em;
 text-align: center;
 
 }
+.if_you{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    li {
+        line-height: 1/2rem;
+        display: flex;
+        margin-top: 10px;
+      }
+      li:before {
+          margin-left: 0;
+          padding-right: 30px;
+        display: block;
+        float: left;
+        content: '';
+        background-image: url('../img/ok.svg') ;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+      }
+}
+.how_change{
+    background-color: white;
+}
+.how_change_card{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1110px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:1.5rem;
+}
+.left{
+    width: 540px;
+    background-color: #C4C4C4;
+    height: 79px;
+    font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.right{
+    width: 540px;
+    background-color: #42196D;
+    color: #FAD264;
+    height: 79px;
+    font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.card_how{
+    max-width: 540px;
+    img{
+        border-radius: 40px;
+    }
+    p{
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    span{
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+.practice{
+    height: 56px;
+    width: 350.0001220703125px;
+    border-radius: 30px;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    border:none;
+    background: linear-gradient(90deg, #fad264, #fce558);
+    margin: 0 auto;
+    display: block;
+}
+.power_super{
+    background-color: #F6F6F6;
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+    p{
+        text-align: center;
+    }
+}
+.power{
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.author{
+    background-color: #F6F6F6;
+    text-align: center;
+    p{
+        max-width: 1110px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+.about_author{
+    display: flex;
+    background-color: #F6F6F6;
+    justify-content: center;
+    img{
+        border-radius: 40px;
+        object-fit: cover;
+    }
+    ul{
+        list-style: none; 
+    }
+    margin: 0;
+    padding: 0;
+    color: black;
+    li {
+        line-height: 1/2rem;
+        display: flex;
+        margin-top: 10px;
+      }
+      li:before {
+          margin-left: 0;
+          padding-right: 30px;
+        display: block;
+        float: left;
+        content: '';
+        background-image: url('../img/strelca_fiol.svg') ;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+      }
+}
