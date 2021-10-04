@@ -5,3 +5,28 @@ body {
   background-position: 0 0;
   background-size: cover;
 }
+
+header {
+  height: 78px;
+  padding: 26px 0 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+header p {
+  color: white;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
